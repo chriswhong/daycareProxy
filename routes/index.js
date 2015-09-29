@@ -28,7 +28,7 @@ function getDaycareData(id,res) {
 
     //get "Contact Information" box
     $('.projectBox').first().children().each(function(i,item) {
-      var value = $(item).text();
+      var value = $(item).text().trim();
 
       switch(i) {
         case 0:
